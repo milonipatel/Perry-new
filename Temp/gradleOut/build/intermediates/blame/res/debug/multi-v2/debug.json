@@ -1,27 +1,34 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/src/main/res/values/strings.xml",
+                    "source": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
-                        "startColumns": "2",
+                        "startColumns": "0",
                         "startOffsets": "53",
-                        "endColumns": "42",
-                        "endOffsets": "93"
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "44",
-                        "endOffsets": "95"
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
                 {
-                    "source": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/src/main/res/values/styles.xml",
+                    "source": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -38,29 +45,22 @@
                         "endColumns": "8,8,8",
                         "endOffsets": "195,333,560"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat",
-            "map": [
+                },
                 {
-                    "source": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/src/main/res/values-v21/styles.xml",
+                    "source": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2",
-                        "startColumns": "0",
+                        "startColumns": "2",
                         "startOffsets": "53",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "153"
+                        "endColumns": "42",
+                        "endOffsets": "93"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "154"
+                        "endColumns": "44",
+                        "endOffsets": "95"
                     }
                 }
             ]

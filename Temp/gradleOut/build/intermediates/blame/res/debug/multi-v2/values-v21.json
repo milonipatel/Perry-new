@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/meghaaswathappa/Documents/CSCI-526/Perry-new-master/Temp/gradleOut/src/main/res/values-v21/styles.xml",
+                    "source": "/Users/miloni_134/Downloads/Perry-new-master/Temp/gradleOut/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
