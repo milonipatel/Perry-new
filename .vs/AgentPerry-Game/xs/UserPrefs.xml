@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6B25ED5B-043C-F583-84BB-365B6B880E13}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level/LevelCamera.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI/LevelSlot.cs" Line="24" Column="68" />
+      <File FileName="Assets/Scenes/LevelSelect/LevelSelectScene.cs" Line="24" Column="13" />
+      <File FileName="Assets/Scripts/Utils/Session.cs" Line="37" Column="30" />
+      <File FileName="Assets/Scripts/Level/LevelsPackage.cs" Line="10" Column="43" />
+      <File FileName="Assets/Scripts/UI/UI/HintMessagePanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/PauseMenuPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/TransitionPanel.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/GameInfoPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/GameUtils.cs" Line="15" Column="3" />
+      <File FileName="Assets/Scenes/LevelHandler/LevelHandlerScene.cs" Line="44" Column="29" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="4" Column="27" />
+      <File FileName="Assets/Scripts/Utils/LevelHandlerUtils.cs" Line="11" Column="45" />
+      <File FileName="Assets/Scripts/Level/Level.cs" Line="27" Column="4" />
+      <File FileName="Assets/Scripts/Level/Level.Logic.cs" Line="64" Column="44" />
+      <File FileName="Assets/Scripts/Utils/Background.cs" Line="35" Column="51" />
+      <File FileName="Assets/Scripts/Level/LevelCamera.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

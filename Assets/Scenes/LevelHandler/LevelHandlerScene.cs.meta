@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 72caff3eb39ca4d17b597192216829d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Transition: {instanceID: 0}
+  - GameInfo: {instanceID: 0}
+  - VirtualInput: {instanceID: 0}
+  - PauseMenu: {instanceID: 0}
+  - HintMessage: {instanceID: 0}
+  - GoalMenu: {instanceID: 0}
+  - x: {fileID: 11400000, guid: ddd7e75b6511b48dd98b49b0d79e6275, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

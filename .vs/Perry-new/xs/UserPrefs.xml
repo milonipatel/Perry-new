@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{60027ECD-5E52-AD9A-A7E5-84259F24C77C}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/LevelHandler/LevelHandlerScene.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Level/LevelCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/Background.cs" Line="1" Column="1" />
+      <File FileName="Assets/ExampleClass.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BronzeCoinCollect.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/StartScreen/StartScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/LevelHandler/LevelHandlerScene.cs" Line="148" Column="5" />
+      <File FileName="Assets/Scripts/Utils/Session.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/BaseScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/LevelSelect/LevelSelectScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/LevelSlot.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="109" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/TransitionPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Levels/level1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Levels/CharacterController2D.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/InputWrapper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/LevelHandlerUtils.cs" Line="28" Column="2" />
+      <File FileName="Assets/Scripts/UI/UI/VirtualInputPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/Level.Logic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/Level.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/LevelMetadata.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utils/Singleton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/LevelsPackage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/LevelPiece.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/LevelName.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/GameInfoPanel.cs" Line="25" Column="3" />
+      <File FileName="Assets/Scripts/Utils/GameUtils.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI/GoalMenuPanel.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

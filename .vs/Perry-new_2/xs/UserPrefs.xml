@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{778A479E-62C0-3D3E-BF65-80C8466FB4CE}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scenes/LevelHandler/LevelHandlerScene.cs" Line="187" Column="4" />
+      <File FileName="Assets/Scripts/Utils/BaseScene.cs" Line="23" Column="13" />
+      <File FileName="Assets/Scenes/StartScreen/StartScreen.cs" Line="27" Column="41" />
+      <File FileName="Assets/Scripts/Utils/LevelHandlerUtils.cs" Line="15" Column="2" />
+      <File FileName="Assets/Scripts/Level/Level.cs" Line="14" Column="25" />
+      <File FileName="Assets/Scripts/Utils/Session.cs" Line="23" Column="44" />
+      <File FileName="Assets/Scripts/Level/LevelMetadata.cs" Line="14" Column="20" />
+      <File FileName="Assets/Scenes/LevelHandler/LevelHandlerScene1.cs" Line="206" Column="11" />
+      <File FileName="Assets/Scripts/UI/UI/VirtualInputPanel.cs" Line="22" Column="4" />
+      <File FileName="Assets/Scripts/Utils/InputWrapper.cs" Line="49" Column="25" />
+      <File FileName="Assets/Scenes/Levels/CharacterController2D.cs" Line="59" Column="5" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="64" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
