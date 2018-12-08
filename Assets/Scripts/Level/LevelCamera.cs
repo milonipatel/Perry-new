@@ -25,7 +25,7 @@ namespace RunAndJump {
 			//camera.orthographicSize = (Screen.height / 100f / 2.0f);
 			_camera = GetComponent<Camera>();
             _camera.orthographic = true;
-			_camera.orthographicSize = 4;
+			_camera.orthographicSize = 6;
 			_screenExtents = new Rect(-_camera.orthographicSize * _camera.aspect, -_camera.orthographicSize, _camera.aspect * _camera.orthographicSize * 2, _camera.orthographicSize * 2 );
 		}
 

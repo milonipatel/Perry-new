@@ -33,7 +33,7 @@ namespace RunAndJump {
 			AddCamera ();
 			AddBackground ();
 			SetGravity ();
-		//	AudioPlayer.Instance.PlayBgm(Bgm);
+			AudioPlayer.Instance.PlayBgm(Bgm);
 		}
 		
 		public void SetGravity () {
@@ -54,7 +54,7 @@ namespace RunAndJump {
 			cameraGO.transform.parent = transform;
 			playerCamera = cameraGO.AddComponent<LevelCamera> ();
 			playerCamera.SetTarget (player.transform);
-			playerCamera.Offset = new Vector3 (0, 1, 0);
+			playerCamera.Offset = new Vector3 (0, 0, 0);
 		}
 		
 		public void AddBackground () {

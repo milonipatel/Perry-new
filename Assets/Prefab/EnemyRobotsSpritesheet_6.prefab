@@ -22,23 +22,53 @@ GameObject:
   - component: {fileID: 212945982328690506}
   - component: {fileID: 61263350315743166}
   - component: {fileID: 114900158932105114}
+  - component: {fileID: 114220666917197966}
   m_Layer: 0
   m_Name: EnemyRobotsSpritesheet_6
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1556672330147002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4635532465504604}
+  m_Layer: 0
+  m_Name: Launchpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4635532465504604
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556672330147002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.86, y: -0.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4862012915476046}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4862012915476046
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1031215750099564}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.23, y: -0.57, z: 0}
-  m_LocalScale: {x: 0.5517746, y: 0.49989486, z: 1}
-  m_Children: []
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.358036, y: -9.413687, z: 4.3502893}
+  m_LocalScale: {x: 0.6332268, y: 0.6332268, z: 1}
+  m_Children:
+  - {fileID: 4635532465504604}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -67,6 +97,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.98, y: 4.38}
   m_EdgeRadius: 0
+--- !u!114 &114220666917197966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031215750099564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71afaaa57ac79ba4e95254a9edd0d53c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRange: 4
+  bullet: {fileID: 1408115269890584, guid: e6c446e51a683e94183f0a3efa28782d, type: 2}
+  player: {fileID: 0}
+  launchPoint: {fileID: 4635532465504604}
+  waitBetweenShots: 3
+  shotSound: {fileID: 8300000, guid: c9c0c901c975946abab3d4c01fd69876, type: 3}
 --- !u!114 &114900158932105114
 MonoBehaviour:
   m_ObjectHideFlags: 1

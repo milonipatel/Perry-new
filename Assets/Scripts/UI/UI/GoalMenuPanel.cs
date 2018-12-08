@@ -12,6 +12,7 @@ namespace RunAndJump {
 		public GameObject NextButton;
 
 		public void SetScore(int score) {
+            Debug.Log("Score set");
 			ScoreValue.text = score.ToString("#,##0");
 		}
 		
@@ -20,12 +21,14 @@ namespace RunAndJump {
 		}
 		*/
 
-		public void SetTreasures(int totalTreasures) {
+		/*public void SetTreasures(int totalTreasures) {
 			TreasuresValue.text = totalTreasures.ToString();
 		}
+		*/
 
-		public void EnableNext(bool enabled) {
+		/*public void EnableNext(bool enabled) {
 			NextButton.SetActive(enabled);
 		}
+		*/
 	}
 }

@@ -111,7 +111,7 @@ namespace RunAndJump
                 PlayerController player = collision.gameObject.GetComponent<PlayerController>();
                 player.StartPlayerDeath();
             }
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

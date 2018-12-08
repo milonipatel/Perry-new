@@ -9,15 +9,15 @@ namespace RunAndJump
         //public GameObject gm;
         //Player player;
 
-        //AudioSource coinCollectSound;
+       // AudioSource coinCollectSound;
         public delegate void StartInteractionDelegate();
         public static event StartInteractionDelegate StartInteractionEvent;
         public GameObject coinCollectionParticles;
-
+        public AudioClip coinCollectSound;
         // Use this for initialization
         void Start()
         {
-            //coinCollectSound = GetComponent<AudioSource>();
+           // coinCollectSound = GetComponent<AudioSource>();
 
         }
 
@@ -36,10 +36,11 @@ namespace RunAndJump
           //  if (coll1.gameObject.tag == ("Player"))
             //{
                 Debug.Log("COIN COLLECT");
-            //coinCollectSound.Play();
-
-                GetComponent<AudioSource>().Play();
+               //coinCollectSound.Play();
+                //GetComponent<AudioSource>().Play();
                 GameObject clone = Instantiate(coinCollectionParticles, transform.position, transform.rotation);
+                AudioPlayer.Instance.PlaySfx(coinCollectSound);
+            //AudioPlayer.Instance.
                 Destroy(gameObject);
                 Destroy(clone, 1f);
           //  }

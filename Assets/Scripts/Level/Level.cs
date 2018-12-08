@@ -21,11 +21,11 @@ namespace RunAndJump {
 			set { _gravity = value; }
 		}
 
-	/*	public AudioClip Bgm {
+		public AudioClip Bgm {
 			get { return _bgm;}
 			set { _bgm = value; }
 		}
-*/
+
 		public Sprite Background {
 			get { return _background; }
 			set { _background = value; }

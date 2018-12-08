@@ -45,7 +45,7 @@ namespace RunAndJump {
 			Lose,
 		}
 
-        public const int TOTAL_LIVES = 3;
+        public const int TOTAL_LIVES = 5;
         public const int COIN_SCORE = 100;
         public const int TREASURE_SCORE = 1000;
         // private const int i = 1;
@@ -184,7 +184,7 @@ namespace RunAndJump {
         #region LEVEL ELEMENTS EVENTS
 
         public void LevelFinish () {
-            if(o<2)
+            if(o<3)
             o++;
             else
                 StartCoroutine(GameOver());
@@ -192,8 +192,9 @@ namespace RunAndJump {
             _gameState = GameState.Win;
             _level = GameObject.FindObjectOfType<Level>();
             GoalMenu.SetScore(_score);
-            GoalMenu.SetTreasures(_treasuresCollected);
+           // GoalMenu.SetTreasures(_treasuresCollected);
             HideAllThePanels();
+           // yield return new WaitForSeconds(1);
             GoalMenu.gameObject.SetActive(true);
             LevelHandlerUtils.DestroyLevel();
             StartCoroutine(InitScene());
@@ -226,14 +227,16 @@ namespace RunAndJump {
 			_lives--;
             _score = 0;
 			if(_lives <= 0) {
-				StartCoroutine(GameOver());
+                LevelHandlerUtils.DestroyLevel();
+                StartCoroutine(GameOver());
 			} else {
 				HideAllThePanels();
 			    Transition.gameObject.SetActive(true);
 				Transition.DisplayIntro (true);
 				Transition.DisplayGameOver (false);
 				Transition.SetIntro (_levelId, _levelName, _lives);
-				LevelHandlerUtils.DestroyLevel();
+                //_level = GameObject.FindObjectOfType<Level>();
+                LevelHandlerUtils.DestroyLevel();
 				StartCoroutine(InitScene());
 			}
 		}
@@ -245,12 +248,15 @@ namespace RunAndJump {
 		}
 
         public IEnumerator GameOver() {
-			HideAllThePanels ();
+            //_gameState = GameState.Win;
+            HideAllThePanels();
 			Transition.gameObject.SetActive(true);
 			Transition.DisplayIntro (false);
 			Transition.DisplayGameOver (true);
+            Transition.SetIntro(_levelId, _levelName, _lives);
+            _level = GameObject.FindObjectOfType<Level>();
             LevelHandlerUtils.DestroyLevel();
-			yield return new WaitForSeconds (0);
+            yield return new WaitForSeconds(0);
             GoToScene(Scene.SampleScene);
 		}
 
@@ -265,7 +271,7 @@ namespace RunAndJump {
 			Time.timeScale = 0;
 			PauseMenu.gameObject.SetActive(true);
 			GameInfo.gameObject.SetActive(false);
-			VirtualInput.gameObject.SetActive(false);
+//			VirtualInput.gameObject.SetActive(false);
 		}
 
 		public void QuitButtonOnClick() {
@@ -278,7 +284,7 @@ namespace RunAndJump {
 			Time.timeScale = 1;
 			PauseMenu.gameObject.SetActive(false);
 			GameInfo.gameObject.SetActive(true);
-			VirtualInput.gameObject.SetActive(true);
+		//	VirtualInput.gameObject.SetActive(true);
 			_gameState = GameState.Playing;
 		}
 

@@ -185,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCollectionParticles: {fileID: 1765768523048614, guid: c296b374cc46aa842ab2bf2c943cfeae,
     type: 2}
+  coinCollectSound: {fileID: 8300000, guid: 7432cbb7290f8478ea2fb9f9ef09e0aa, type: 3}
 --- !u!212 &212836824034313532
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -16,7 +16,7 @@ namespace RunAndJump
         {
             if (StartInteractionEvent != null)
             {
-               //AudioPlayer.Instance.PlaySfx(PlayerWinFx);
+                AudioPlayer.Instance.PlaySfx(PlayerWinFx);
                 StartInteractionEvent();
             }
         }

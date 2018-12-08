@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{60027ECD-5E52-AD9A-A7E5-84259F24C77C}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/LevelHandler/LevelHandlerScene.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PatrolTranslate.cs">
     <Files>
       <File FileName="Assets/Scripts/Level/LevelCamera.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Utils/Background.cs" Line="1" Column="1" />
@@ -12,9 +12,7 @@
       <File FileName="Assets/Scripts/Utils/BaseScene.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/LevelSelect/LevelSelectScene.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/UI/LevelSlot.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="109" Column="1" />
-      <File FileName="Assets/Scripts/UI/UI/TransitionPanel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Levels/level1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="117" Column="34" />
       <File FileName="Assets/Scenes/Levels/CharacterController2D.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Utils/InputWrapper.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Utils/LevelHandlerUtils.cs" Line="28" Column="2" />
@@ -29,6 +27,8 @@
       <File FileName="Assets/Scripts/UI/UI/GameInfoPanel.cs" Line="25" Column="3" />
       <File FileName="Assets/Scripts/Utils/GameUtils.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/UI/UI/GoalMenuPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PatrolSinusodial.cs" Line="115" Column="6" />
+      <File FileName="Assets/Scripts/PatrolTranslate.cs" Line="109" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

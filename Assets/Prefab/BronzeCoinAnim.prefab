@@ -65,10 +65,10 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1259734730317918}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e61f0f5eff57442daa7f01592e619a51, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.62
   m_Pitch: 1
@@ -185,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCollectionParticles: {fileID: 1765768523048614, guid: c296b374cc46aa842ab2bf2c943cfeae,
     type: 2}
+  coinCollectSound: {fileID: 8300000, guid: 7432cbb7290f8478ea2fb9f9ef09e0aa, type: 3}
 --- !u!212 &212337846864546056
 SpriteRenderer:
   m_ObjectHideFlags: 1
